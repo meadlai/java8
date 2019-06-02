@@ -18,11 +18,25 @@
 		    return function.apply(name);
 	    }
    
-   - Consumer<T>
+   - Consumer<T>, Consumes a value of type T, no returns
     
         ``` java
           public static void validInput2(String name, Consumer<String> function) {
 		        function.accept(name);
 	      }
     
-   - Supplier<T>
+   - Supplier<T>, Supplies a value of type T
+	
+   - Runnable, Runs an action without arguments or return value
+
+   - BiConsumer<T, U>, Consumes values of types T and U
+   
+   - BiFunction<T, U, R>, A function with arguments of types T and U
+   
+   - UnaryOperator<T>, A unary operator on the type T
+
+   - BinaryOperator<T>
+	
+   - BiPredicate<T, U>
+   
+   
