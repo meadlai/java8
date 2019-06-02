@@ -6,41 +6,34 @@
     * add default and static methods to interfaces that provide concrete implementations
     
     	``` java
-      		public interface Demo { 
-        		default void defaultMethod() {
-            			System.out.println("I am a default method!!!");
-        		}
-        		static void staticMethod() {
-            			System.out.println("I am a static method!!!");
-        		}
-    		}
-	```
+      	public interface Demo { 
+        	default void defaultMethod() {
+            		System.out.println("I am a default method!!!");
+        	}
+        	static void staticMethod() {
+            		System.out.println("I am a static method!!!");
+        	}
+    	}
+
    
     * no the argument
     
     	``` java
-                  new Thread(() -> {
-		  
-			    System.out.println("this is a function lambda");
-			    
-		  }).start();
-    	```
-    
+        new Thread(() -> {
+			   System.out.println("this is a function lambda");
+		}).start();
+
     * optional type declaration
     
     	``` java
-               Arrays.sort(array, (v1, v2) -> {
-	       
-			return v1.compareTo(v2);
-			
+        Arrays.sort(array, (v1, v2) -> {
+		return v1.compareTo(v2);
 		});
-    	```
     
     * optional the keyword **return** and curly braces
     
     	`
-    		Arrays.sort(array, (v1, v2) -> v1.compareTo(v2));
-    	`
+		Arrays.sort(array, (v1, v2) -> v1.compareTo(v2));`
     
 	> https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html
 	
