@@ -6,7 +6,6 @@
 - Method References
 - Constructor References
 - Variable Scope
-- Default Methods
-- Static Methods
+- Default Methods and Static Methods
 
 ## Stream API
