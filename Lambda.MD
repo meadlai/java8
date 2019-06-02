@@ -35,12 +35,18 @@
     	`
 		Arrays.sort(array, (v1, v2) -> v1.compareTo(v2));`
     
-	> https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html
 	
- - Functional Interfaces
- - Method References
- - Constructor References
- - Variable Scope
- - Default Methods
- - Static Methods
+ - code sample
+	
+	1. [lambda_usage](http://163.com)
+		
+	2. [sort_usage](http://163.com)
+		
+	3. [file_usage](http://163.com)
+		
+- https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html
+	
+- case list
+	
+ 
 
